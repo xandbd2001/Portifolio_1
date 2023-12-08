@@ -5,12 +5,13 @@
     padding: auto;
 }
 
-nav > ul,li {
+
+div#nav > ul li {
     list-style: none;
     display: inline-block;
-    padding: 10px;
-    margin: auto;
-
+    font-size: 1.2em;
+    padding-left: 0px;
+    padding-right: 10px;
 }
 
 div#nav a {
@@ -29,11 +30,16 @@ div#nav a:hover {
 nav {
     background-color: rgba(162, 240, 214, 0.541);
     border-radius: 10px;
-
 }
 
 div#container {
     text-align: center;    
+}
+
+div#habilidades > ol li{
+    list-style: circle;
+    padding: 5px;
+    font-size: 1.1em;
 }
 
 div#contato {
@@ -42,15 +48,18 @@ div#contato {
     text-align: center;
 }
 
-div#apps > ul,li {
-    list-style: none;
-    font-size: 1.2em;
-}
 
 div#apps a {
     text-decoration: none;
     color: black;
 }
+
+div#apps > ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 10px;
+    font-size: 1.5em;
+} 
 
 div#apps a:hover {
     padding: 5px;
@@ -59,3 +68,4 @@ div#apps a:hover {
 
     transition: 0.2s;
 }
+
