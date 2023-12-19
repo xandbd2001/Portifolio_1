@@ -42,6 +42,10 @@ div#habilidades > ol li{
     font-size: 1.1em;
 }
 
+div#habilidades {
+    padding: 10px;
+}
+
 div#contato {
     background-color: rgba(162, 240, 214, 0.541);
     border-radius: 10px;
